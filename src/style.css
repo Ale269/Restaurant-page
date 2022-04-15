@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div {
+    margin-right: 100px;
+}
+
+nav div:last-of-type {
+    margin-right: 0;
+}
