@@ -1,2 +1,4 @@
-import DisplayLayout from "./controller.js";
+import displayHome from "./home.js";
 import './style.css';
+
+displayHome();

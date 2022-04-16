@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
 }
 
 header {
     height: 80px;
-    background: red;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #868686;
+    background-color: #F2F2F2;
 }
 
 nav {
@@ -19,9 +25,84 @@ nav {
 }
 
 nav div {
-    margin-right: 100px;
+    margin-right: 150px;
+}
+
+nav div h4{
+    font-weight: 300;
+    color:#373737;
+    cursor: pointer;
+}
+
+nav div h4:hover {
+    color: #868686;
 }
 
 nav div:last-of-type {
     margin-right: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    height: 85vh;
+}
+
+.title-container {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #373737;
+    margin-bottom: 30px;
+} 
+
+.title-container h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 30px;
+    color: #A6A6A6;
+}
+
+.image-container-cta {
+    height: 500px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #B2B2B2;
+    width: 100%;
+    cursor: pointer;
+}
+
+.image-menu-container {
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.background-image {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    font-weight: 300;
+    height: 50px;
+    border-top: 1px solid #868686;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
 }
