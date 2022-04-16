@@ -35,11 +35,21 @@ nav div h4{
 }
 
 nav div h4:hover {
+    transition: ease-in-out 0.2s;
     color: #868686;
 }
 
 nav div:last-of-type {
     margin-right: 0;
+}
+
+.active {
+    border-bottom: 1px solid #EDEDED;
+}
+
+.active:hover {
+    transition: ease-in-out 0.2s;
+    border-bottom: 1px solid #868686;
 }
 
 .container {
@@ -73,7 +83,6 @@ nav div:last-of-type {
 
 .image-container-cta {
     height: 500px;
-    background-color: #FFF;
     border-radius: 10px;
     cursor: pointer;
 }
