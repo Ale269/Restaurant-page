@@ -4,7 +4,7 @@ import background from './background.png';
 export default function displayHome() {
     document.querySelectorAll(".tab-navigation").forEach((element) => {
         if(element.firstChild.classList.contains("Home")){
-            element.firstChild.setAttribute("class", "active");
+            element.firstChild.classList.add("active");
         }else{
             if(element.firstChild.classList.contains("active")){
                 element.firstChild.classList.remove("active");

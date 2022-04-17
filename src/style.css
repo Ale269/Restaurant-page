@@ -7,6 +7,7 @@
 
 body {
     background-color: #F2F2F2;
+    padding: 0 30px;
 }
 
 header {
@@ -59,12 +60,24 @@ nav div:last-of-type {
     height: 85vh;
 }
 
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title-container {
     padding: 30px;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.title-menu {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .title-container h1 {
@@ -95,10 +108,47 @@ nav div:last-of-type {
 }
 
 .background-image {
+    position: relative;
+    bottom: 0;
     display: block;
     margin: 0 auto;
     height: 100%;
     border-radius: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.background-image:hover {
+    bottom: 5px;
+    transition: ease-in-out 0.2s;
+}
+
+.menu-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 50px;
+}
+
+.menu-element-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.menu-image {
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.element-description {
+    color: #EDEDED;
+    font-weight: 300;
+    text-align: center;
 }
 
 footer {
@@ -114,4 +164,28 @@ footer h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media screen and (max-width: 710px){
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-element-container {
+        max-width: 400px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav div {
+        margin-right: 0;
+    }
 }
