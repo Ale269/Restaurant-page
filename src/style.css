@@ -177,6 +177,33 @@ footer h4 {
         align-items: center;
     }
 
+    .container {
+        flex-direction: column;
+    }
+
+    .title-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .image-menu-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-container-cta {
+        width: 100%; 
+        height: auto;
+    }
+
+    .background-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+
     .menu-element-container {
         max-width: 400px;
     }
