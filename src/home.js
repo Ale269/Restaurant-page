@@ -1,4 +1,5 @@
 import './style.css';
+import logoSrc from "./logo.svg"
 import background from './background.png';
 
 export default function displayHome() {
@@ -11,6 +12,10 @@ export default function displayHome() {
             }
         }
     })
+
+    const logo = new Image();
+    logo.src = logoSrc;
+    logo.classList.add("logo-home");
     
     const homeContainer = document.createElement("div");
     homeContainer.classList.add("container");
@@ -18,6 +23,7 @@ export default function displayHome() {
     const titleContainer = document.createElement("div");
     titleContainer.classList.add("title-container");
     titleContainer.innerHTML = `<h1 class="title">C'è pasta per tutti</h1><h3>We have been serving traditional recipes, made with local ingredients, since 1939.</h3>`;
+    titleContainer.prepend(logo);
 
     const imageContainer = document.createElement("div");
     imageContainer.classList.add("image-menu-container");

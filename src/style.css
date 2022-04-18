@@ -63,6 +63,11 @@ nav div:last-of-type {
     height: 85vh;
 }
 
+.logo-home {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .container-menu {
     display: flex;
     flex-direction: column;
@@ -179,6 +184,7 @@ footer h4 {
 
     .container {
         flex-direction: column;
+        height: auto;
     }
 
     .title-container {
