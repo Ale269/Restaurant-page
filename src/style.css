@@ -74,6 +74,12 @@ nav div:last-of-type {
     align-items: center;
 }
 
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title-container {
     padding: 30px;
     width: 50%;
@@ -83,6 +89,12 @@ nav div:last-of-type {
 }
 
 .title-menu {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title-contact {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -103,9 +115,13 @@ nav div:last-of-type {
 }
 
 .image-container-cta {
-    height: 500px;
+    max-height: 500px;
+    width: 100%;
     border-radius: 10px;
-    cursor: pointer;
+}
+
+.image-container-cta img {
+    width: 100%;
 }
 
 .image-menu-container {
@@ -157,6 +173,46 @@ nav div:last-of-type {
     color: #EDEDED;
     font-weight: 300;
     text-align: center;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-map-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.telephone-container {
+    display: flex;
+    color: #EDEDED;
+    margin: 0 0 20px 30px;
+}
+
+.telephone-container i {
+    margin-right: 20px;
+}
+
+.adress-container {
+    display: flex;
+    color: #EDEDED;
+    margin: 0 0 20px 30px;
+} 
+
+.adress-container i {
+    margin-right: 20px;
+}
+
+.contact-map-image-container img {
+    width: 100%;
 }
 
 footer {

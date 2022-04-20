@@ -36,3 +36,8 @@ tabButton.addEventListener("click", (event) => {
     }
     
 })
+
+let MenuCTAimage = document.querySelector(".image-menu-container");
+MenuCTAimage.addEventListener("click", () => {
+    displayMenu();
+})
