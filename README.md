@@ -1,6 +1,6 @@
-# Restorant website
+# Restaurant website
 
-> Create a Restorant dynamic website.
+> Create a Restaurant dynamic website.
 
 ---
 
