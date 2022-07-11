@@ -19,7 +19,7 @@ Project analysis.
 Create a dynamic website thanks to javascript.<br />
 Use webpack to run the bundle.
 
-- Try the website - [link to the applicatin](https://ale269.github.io/Restaurant-page/)
+- Try the website - [link to the application](https://ale269.github.io/Restaurant-page/)
 
 #### Built with
 
